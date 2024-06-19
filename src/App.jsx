@@ -16,8 +16,8 @@ function App() {
     <div style={{ position: "relative" }}>
       <Navbar />
       <Card>
-        <CardHeader>
-          <CardTitle>Details</CardTitle>
+        <CardHeader id="page-header">
+          <CardTitle>Datenübersicht</CardTitle>
         </CardHeader>
         <CardContent>
           <div className="grid">
