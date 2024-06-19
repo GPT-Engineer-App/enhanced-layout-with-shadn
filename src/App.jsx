@@ -16,7 +16,7 @@ function App() {
     console.log("Close button clicked");
   };
   return (
-    <div style={{ position: "relative" }}>
+    <div style={{ position: "relative" }} className="full-width">
       <Navbar />
       <Card>
         <CardHeader id="page-header">
@@ -32,7 +32,7 @@ function App() {
           </div>
         </CardHeader>
         <CardContent>
-          <div className="grid">
+          <div className="grid full-width">
             <div>
               <Label className="label">Eingegangen_am:</Label>
               <p className="value">2024-06-11T05:42:51+00:00</p>
