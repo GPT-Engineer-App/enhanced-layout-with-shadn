@@ -12,13 +12,15 @@ import "./App.css";
 
 function App() {
   return (
-    <>
+    <div style={{ position: "relative" }}>
       <Card>
         <CardHeader>
           <CardTitle>Details</CardTitle>
         </CardHeader>
         <CardContent>
-          <Button variant="destructive" className="mb-4">Close</Button>
+          <div className="close-button-container">
+            <Button variant="destructive" className="mb-4">Close</Button>
+          </div>
           <div className="grid">
             <div>
               <Label className="label">Eingegangen_am:</Label>
@@ -75,7 +77,7 @@ function App() {
           </div>
         </CardContent>
       </Card>
-    </>
+    </div>
   );
 }
 
