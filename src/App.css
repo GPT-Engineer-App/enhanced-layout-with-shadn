@@ -49,4 +49,7 @@
 .value {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+  padding: 0.5rem; /* Add padding for better spacing */
+  border-radius: 0.5rem; /* Add rounded borders */
+  background-color: #f0f0f0; /* Light grey background color */
 }
