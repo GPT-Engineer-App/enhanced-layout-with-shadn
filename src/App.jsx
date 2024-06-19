@@ -21,54 +21,54 @@ function App() {
           <Button variant="destructive" className="mb-4">Close</Button>
           <div className="grid">
             <div>
-              <Label>Eingegangen_am:</Label>
-              <p>2024-06-11T05:42:51+00:00</p>
+              <Label className="label">Eingegangen_am:</Label>
+              <p className="value">2024-06-11T05:42:51+00:00</p>
               <Separator className="my-2" />
-              <Label>Konto:</Label>
-              <p>Leer</p>
+              <Label className="label">Konto:</Label>
+              <p className="value">Leer</p>
               <Separator className="my-2" />
-              <Label>Ev/Vp:</Label>
-              <p>Leer</p>
+              <Label className="label">Ev/Vp:</Label>
+              <p className="value">Leer</p>
               <Separator className="my-2" />
-              <Label>Belegtext:</Label>
-              <p>Leer</p>
+              <Label className="label">Belegtext:</Label>
+              <p className="value">Leer</p>
               <Separator className="my-2" />
-              <Label>Kommentar:</Label>
-              <p>Leer</p>
+              <Label className="label">Kommentar:</Label>
+              <p className="value">Leer</p>
               <Separator className="my-2" />
-              <Label>Fällig_am:</Label>
-              <p>Leer</p>
+              <Label className="label">Fällig_am:</Label>
+              <p className="value">Leer</p>
               <Separator className="my-2" />
-              <Label>Gebucht:</Label>
-              <p>Leer</p>
+              <Label className="label">Gebucht:</Label>
+              <p className="value">Leer</p>
               <Separator className="my-2" />
-              <Label>Skonto:</Label>
-              <p>No</p>
+              <Label className="label">Skonto:</Label>
+              <p className="value">No</p>
             </div>
             <div>
-              <Label>Kostenstelle:</Label>
-              <p>Leer</p>
+              <Label className="label">Kostenstelle:</Label>
+              <p className="value">Leer</p>
               <Separator className="my-2" />
-              <Label>VB:</Label>
-              <p>Leer</p>
+              <Label className="label">VB:</Label>
+              <p className="value">Leer</p>
               <Separator className="my-2" />
-              <Label>wer_geprüft:</Label>
-              <p>Leer</p>
+              <Label className="label">wer_geprüft:</Label>
+              <p className="value">Leer</p>
               <Separator className="my-2" />
-              <Label>wer_bezahlt:</Label>
-              <p>Leer</p>
+              <Label className="label">wer_bezahlt:</Label>
+              <p className="value">Leer</p>
               <Separator className="my-2" />
-              <Label>Status:</Label>
-              <p>Empfangen</p>
+              <Label className="label">Status:</Label>
+              <p className="value">Empfangen</p>
               <Separator className="my-2" />
-              <Label>Amount:</Label>
-              <p>Leer</p>
+              <Label className="label">Amount:</Label>
+              <p className="value">Leer</p>
               <Separator className="my-2" />
-              <Label>Sender:</Label>
-              <p>Finance, finance@wph.onl</p>
+              <Label className="label">Sender:</Label>
+              <p className="value">Finance, finance@wph.onl</p>
               <Separator className="my-2" />
-              <Label>Email_body:</Label>
-              <p>
+              <Label className="label">Email_body:</Label>
+              <p className="value">
                 Sehr geehrte Damen und Herren, unsere Leistung wurde wie vereinbart erbracht. Wahrscheinlich ist es Ihrer Aufmerksamkeit entgangen, dass die dazugehörige Rechnung [R2002880] zur Zahlung fällig ist. Zahlungseingänge bis 10.06.2024 sind berücksichtigt. Wir bitten daher um schnellstmögliche Überweisung des fälligen Betrages. Falls dies bereits geschehen ist, betrachten Sie dieses Schreiben bitte als gegenstandlos. Fragen beantworten wir Ihnen gerne per Mail unter <a href="mailto:finance@wph.onl">finance@wph.onl</a>. Rechnungsnummer: 2002880 Rechnungsdatum: 02.04.2024 Fälligkeitsdatum: 02.04.2024 Inhalt: Abrechnung Managed Service Leistungen 01.04.24-30.06.24 Rechnungsbetrag: € 1.713,60 OFFEN: € 1.713,60
               </p>
             </div>
