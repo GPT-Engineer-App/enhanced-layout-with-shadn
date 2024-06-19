@@ -53,3 +53,10 @@
   border-radius: 0.5rem; /* Add rounded borders */
   background-color: #f0f0f0; /* Light grey background color */
 }
+
+/* Add the following CSS to position the close button in the top right corner */
+.close-button-container {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
