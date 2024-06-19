@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { useNavigate } from 'react-router-dom';
 import {
   Card,
   CardHeader,
@@ -13,15 +12,9 @@ import "./App.css";
 import Navbar from "./components/Navbar.jsx";
 
 function App() {
-  const navigate = useNavigate();
-
   return (
     <div style={{ position: "relative" }}>
       <Navbar />
-      <div className="close-button-container">
-        <Button variant="destructive" className="rounded-full" onClick={() => navigate('/')}>X</Button>
-      </div>
-    
       <Card>
         <CardHeader>
           <CardTitle>Details</CardTitle>
