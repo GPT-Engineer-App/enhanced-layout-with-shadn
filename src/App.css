@@ -66,3 +66,17 @@
 .full-width {
   width: 100%;
 }
+
+/* Add styles for the header container and close button */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.close-button {
+  position: relative;
+  right: 0;
+}

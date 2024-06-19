@@ -20,11 +20,11 @@ function App() {
       <Navbar />
       <Card>
         <CardHeader id="page-header">
-          <CardTitle>Datenübersicht</CardTitle>
-        <div className="close-button-container">
+          <div className="header-container">
+            <CardTitle>Datenübersicht</CardTitle>
             <Button
               variant="destructive"
-              className="rounded-full bg-red-500 text-white"
+              className="rounded-full bg-red-500 text-white close-button"
               onClick={handleClose}
             >
               Close
