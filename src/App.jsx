@@ -19,9 +19,9 @@ function App() {
     <div style={{ position: "relative" }}>
       <Navbar />
       <Card>
-        <CardHeader id="page-header" className="flex justify-between items-center">
+        <CardHeader id="page-header">
           <CardTitle>Datenübersicht</CardTitle>
-          <div className="close-button-container">
+        <div className="close-button-container">
             <Button
               variant="destructive"
               className="rounded-full bg-red-500 text-white"
