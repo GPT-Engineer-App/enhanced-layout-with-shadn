@@ -11,8 +11,6 @@ import { Separator } from "./components/ui/separator.jsx";
 import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <Card>
@@ -21,7 +19,7 @@ function App() {
         </CardHeader>
         <CardContent>
           <Button variant="destructive" className="mb-4">Close</Button>
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid">
             <div>
               <Label>Eingegangen_am:</Label>
               <p>2024-06-11T05:42:51+00:00</p>
