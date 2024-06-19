@@ -60,3 +60,8 @@
   top: 1rem;
   right: 1rem;
 }
+
+/* Ensure content takes up the full width of its parent container */
+.full-width {
+  width: 100%;
+}

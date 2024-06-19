@@ -14,7 +14,7 @@ const ActionDrawerPage = () => {
   const navigate = useNavigate();
 
   return (
-    <div style={{ maxWidth: "80%", margin: "0 auto", position: "relative" }}> {/* Increase max-width to 80% */}
+    <div style={{ maxWidth: "80%", margin: "0 auto", position: "relative" }} className="full-width"> {/* Increase max-width to 80% */}
       <Navbar /> {/* Add Navbar */}
       <Card>
         <CardHeader>
@@ -22,35 +22,35 @@ const ActionDrawerPage = () => {
         </CardHeader>
         <CardContent>
           <p>Please fill out the fields..</p>
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-2 gap-4 full-width">
             <div>
               <Label>eingegangen_am</Label>
-              <Input type="date" />
+              <Input type="date" className="full-width" />
               <Separator className="my-2" />
               <Label>fällig_am</Label>
-              <Input type="date" />
+              <Input type="date" className="full-width" />
               <Separator className="my-2" />
               <Label>gebucht</Label>
-              <Input type="date" />
+              <Input type="date" className="full-width" />
               <Separator className="my-2" />
               <Label>Konto</Label>
-              <Input type="text" />
+              <Input type="text" className="full-width" />
               <Separator className="my-2" />
               <Label>EV/VP</Label>
-              <Input type="text" />
+              <Input type="text" className="full-width" />
               <Separator className="my-2" />
               <Label>Belegtext</Label>
-              <Input type="text" />
+              <Input type="text" className="full-width" />
             </div>
             <div>
               <Label>Komentar</Label>
-              <Textarea />
+              <Textarea className="full-width" />
               <Separator className="my-2" />
               <Label>Skonto</Label>
-              <Slider defaultValue={[0]} max={100} step={1} />
+              <Slider defaultValue={[0]} max={100} step={1} className="full-width" />
               <Separator className="my-2" />
               <Label>Kostenstelle</Label>
-              <Select>
+              <Select className="full-width">
                 <SelectTrigger>
                   <SelectValue placeholder="Select..." />
                 </SelectTrigger>
@@ -64,7 +64,7 @@ const ActionDrawerPage = () => {
               </Select>
               <Separator className="my-2" />
               <Label>VB</Label>
-              <Select>
+              <Select className="full-width">
                 <SelectTrigger>
                   <SelectValue placeholder="Select..." />
                 </SelectTrigger>
@@ -78,10 +78,10 @@ const ActionDrawerPage = () => {
               </Select>
               <Separator className="my-2" />
               <Label>Ticket Number</Label>
-              <Input type="text" />
+              <Input type="text" className="full-width" />
             </div>
           </div>
-          <Button variant="default" className="mt-4">Submit</Button>
+          <Button variant="default" className="mt-4 full-width">Submit</Button>
         </CardContent>
       </Card>
     </div>
