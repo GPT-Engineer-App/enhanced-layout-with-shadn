@@ -17,7 +17,10 @@ function App() {
       <Navbar />
       <Card>
         <CardHeader>
-          <CardTitle>Details</CardTitle>
+          <div className="header-container">
+            <CardTitle>Details</CardTitle>
+            <Button variant="destructive" className="close-button">Close</Button>
+          </div>
         </CardHeader>
         <CardContent>
           <div className="close-button-container">
