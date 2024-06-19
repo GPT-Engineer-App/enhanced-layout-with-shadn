@@ -8,7 +8,7 @@
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr; /* Set both columns to have a width of 50% */
-  gap: 4px; /* Optional: Add some gap between columns */
+  gap: 16px; /* Increase the gap between columns */
 }
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
