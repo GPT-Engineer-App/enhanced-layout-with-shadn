@@ -8,15 +8,16 @@ import { Select, SelectTrigger, SelectContent, SelectItem, SelectGroup, SelectLa
 import { Slider } from "../components/ui/slider.jsx";
 import { Separator } from "../components/ui/separator.jsx";
 import { useNavigate } from 'react-router-dom';
+import Navbar from "../components/Navbar.jsx"; // Import Navbar
 
 const ActionDrawerPage = () => {
   const navigate = useNavigate();
 
   return (
-    <div>
+    <div style={{ maxWidth: "80%", margin: "0 auto", position: "relative" }}> {/* Increase max-width to 80% */}
+      <Navbar /> {/* Add Navbar */}
       <Card>
         <CardHeader>
-          <Button variant="destructive" className="mb-4" onClick={() => navigate('/')}>Close</Button>
           <CardTitle>Kontierungstempel</CardTitle>
         </CardHeader>
         <CardContent>
