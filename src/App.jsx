@@ -12,12 +12,24 @@ import "./App.css";
 import Navbar from "./components/Navbar.jsx";
 
 function App() {
+  const handleClose = () => {
+    console.log("Close button clicked");
+  };
   return (
     <div style={{ position: "relative" }}>
       <Navbar />
       <Card>
         <CardHeader id="page-header">
           <CardTitle>Datenübersicht</CardTitle>
+        <div className="close-button-container">
+            <Button
+              variant="destructive"
+              className="rounded-full bg-red-500 text-white"
+              onClick={handleClose}
+            >
+              Close
+            </Button>
+          </div>
         </CardHeader>
         <CardContent>
           <div className="grid">
