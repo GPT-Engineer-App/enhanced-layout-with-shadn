@@ -5,6 +5,7 @@ import {
   CardTitle,
   CardContent,
 } from "./components/ui/card.jsx";
+import { Button } from "./components/ui/button.jsx"; // Ensure Button is imported
 import { Label } from "./components/ui/label.jsx";
 import { Separator } from "./components/ui/separator.jsx";
 import "./App.css";
