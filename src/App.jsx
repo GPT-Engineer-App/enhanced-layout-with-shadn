@@ -4,10 +4,10 @@ import {
   CardHeader,
   CardTitle,
   CardContent,
-} from "@/components/ui/card.jsx";
-import { Button } from "@/components/ui/button.jsx";
-import { Label } from "@/components/ui/label.jsx";
-import { Separator } from "@/components/ui/separator.jsx";
+} from "./components/ui/card.jsx";
+import { Button } from "./components/ui/button.jsx";
+import { Label } from "./components/ui/label.jsx";
+import { Separator } from "./components/ui/separator.jsx";
 import "./App.css";
 
 function App() {
