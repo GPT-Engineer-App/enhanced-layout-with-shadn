@@ -16,13 +16,11 @@ function App() {
     <div style={{ position: "relative" }}>
       <Navbar />
       <Card>
-        <CardHeader>
+        <CardHeader className="flex justify-between items-center">
           <CardTitle>Details</CardTitle>
+          <Button variant="destructive" className="mb-4">Close</Button>
         </CardHeader>
         <CardContent>
-          <div className="close-button-container">
-            <Button variant="destructive" className="mb-4">Close</Button>
-          </div>
           <div className="grid">
             <div>
               <Label className="label">Eingegangen_am:</Label>
