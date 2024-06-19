@@ -13,9 +13,9 @@ import Navbar from "./components/Navbar.jsx";
 
 function App() {
   return (
-    <div>
+    <div style={{ position: "relative" }}>
+      <Navbar />
       <Card>
-        <Navbar />
         <CardHeader>
           <CardTitle>Details</CardTitle>
         </CardHeader>
