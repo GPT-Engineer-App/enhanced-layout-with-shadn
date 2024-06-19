@@ -14,7 +14,7 @@ const ActionDrawerPage = () => {
   const navigate = useNavigate();
 
   return (
-    <div style={{ maxWidth: "80%", margin: "0 auto", position: "relative" }} className="full-width"> {/* Increase max-width to 80% */}
+    <div style={{ width: "100%", margin: "0 auto", position: "relative" }} className="full-width"> {/* Set width to 100% */}
       <Navbar /> {/* Add Navbar */}
       <Card>
         <CardHeader>
