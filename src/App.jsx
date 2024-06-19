@@ -9,10 +9,12 @@ import { Button } from "./components/ui/button.jsx";
 import { Label } from "./components/ui/label.jsx";
 import { Separator } from "./components/ui/separator.jsx";
 import "./App.css";
+import Navbar from "./components/Navbar.jsx";
 
 function App() {
   return (
     <div style={{ position: "relative" }}>
+      <Navbar />
       <Card>
         <CardHeader>
           <CardTitle>Details</CardTitle>
