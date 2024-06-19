@@ -12,16 +12,9 @@ import "./App.css";
 import Navbar from "./components/Navbar.jsx";
 
 function App() {
-  const handleClose = () => {
-    // Logic to handle close action, e.g., navigate to another page or hide the details
-    console.log("Close button clicked");
-  };
   return (
     <div style={{ position: "relative" }}>
       <Navbar />
-      <div className="close-button-container">
-        <Button variant="ghost" onClick={handleClose}>Close</Button>
-      </div>
       <Card>
         <CardHeader>
           <CardTitle>Details</CardTitle>
