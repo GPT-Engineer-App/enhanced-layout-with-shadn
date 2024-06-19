@@ -20,9 +20,6 @@ function App() {
           <CardTitle>Details</CardTitle>
         </CardHeader>
         <CardContent>
-          <div className="close-button-container">
-            <Button variant="destructive" className="mb-4">Close</Button>
-          </div>
           <div className="grid">
             <div>
               <Label className="label">Eingegangen_am:</Label>
