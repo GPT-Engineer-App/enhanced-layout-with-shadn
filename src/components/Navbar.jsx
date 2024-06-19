@@ -1,5 +1,7 @@
 import React from "react";
 import { Button } from "./ui/button.jsx";
+import { Drawer, DrawerTrigger, DrawerContent, DrawerClose } from "./ui/drawer.jsx";
+import Layout from "./Layout.jsx"; // Import the new Layout component
 
 const Navbar = () => {
   return (
@@ -8,7 +10,17 @@ const Navbar = () => {
         <div className="text-white text-lg font-semibold">My App</div>
         <div className="flex space-x-4">
           <Button variant="ghost" className="text-white">EyeDrawer</Button>
-          <Button variant="ghost" className="text-white">Action Drawer</Button>
+          <Drawer>
+            <DrawerTrigger asChild>
+              <Button variant="ghost" className="text-white">Action Drawer</Button>
+            </DrawerTrigger>
+            <DrawerContent>
+              <DrawerClose asChild>
+                <Button variant="destructive" className="mb-4">Close</Button>
+              </DrawerClose>
+              <Layout /> {/* Render the Layout component inside the Drawer */}
+            </DrawerContent>
+          </Drawer>
         </div>
       </div>
     </nav>
